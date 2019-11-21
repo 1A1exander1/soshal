@@ -1,0 +1,380 @@
+@import "bootstrap";
+@import "settings";
+
+.modal{
+  background: linear-gradient(233.13deg, rgba(107, 149, 227, 0.8) 0%, rgba(103, 54, 107, 0.8) 100%), #62538B;
+}
+.modal-content{
+    position: absolute;
+    width: 670px;
+    left: 65px;
+    top: 45px;
+    border-radius: 8px;
+    header{
+      height: 101px;
+      background: linear-gradient(261.43deg, #6B95E3 0%, #6784D0 100%);
+      p{
+        position: absolute;
+        width: 238px;
+        height: 31px;
+        font-family: Open Sans;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 22px;
+        line-height: 31px;
+        left: 130px;
+        top: 30px;
+        color: #FFFFFF
+      }
+    }
+
+  .content{
+    height: 310px;
+    .form-control{
+      border: none;
+      height: 40px;
+      padding-top: 10px;
+      font-family: Open Sans;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 13px;
+      line-height: 18px;
+      color: #A8A7A7;
+    }
+    .input-group{
+      position: absolute;
+      width: 301px;
+      height: 45px;
+      left: 80px;
+      top: 51px;
+      border: 1px solid #DBDBDB;
+      box-sizing: border-box;
+      border-radius: 3px;
+    }
+    .dropdown-toggle{
+      margin-left: 10px;
+      color:  #828282;
+
+    }
+    .dropdown-toggle::after {
+      width: 5px;
+      color:  #828282;
+
+    }
+    #search_concept{
+
+      font-family: Open Sans;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 12px;
+      line-height: 17px;
+      text-align: right;
+      color: #757575;
+    }
+    .btn-default{
+      height: 40px;
+    }
+    .btn-primary{
+      position: absolute;
+      width: 160px;
+      height: 45px;
+      left: 315px;
+      background: #658CD3;
+      border: none;
+      border-radius: 2.81458px;
+
+
+    }
+  }
+  .flex{
+
+    &__box-1{
+      display: flex;
+      justify-content: space-around;
+      position: relative;
+      top: 120px;
+      &__email{
+        display: inline-flex;
+        width: 200px;
+        height: 30px;
+
+        img{
+          width: 30px;
+          height: 30px;
+        }
+        .name{
+          p{
+            padding-left: 10px;
+            font-family: Open Sans;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 13px;
+            line-height: 18px;
+            color: #666666;
+          }
+          span{
+            position: relative;
+            bottom: 25px;
+            padding-left: 10px;
+            font-family: Open Sans;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 11px;
+            color: #757575;;
+          }
+        }
+      }
+      &__button{
+        width: 200px;
+        height: 50px;
+        display: flex;
+        span{
+          position: relative;
+          top: 5px;
+          right: 70px;
+          width: 86px;
+          height: 16px;
+          font-family: Open Sans;
+          font-style: normal;
+          font-weight: normal;
+          font-size: 11px;
+          line-height: 15px;
+          ext-align: right;
+          color: #BABABA;
+        }
+        button{
+          position: relative;
+          right: 60px;
+          width: 131px;
+          height: 30px;
+          font-family: Open Sans;
+          font-style: normal;
+          font-weight: normal;
+          font-size: 12px;
+          line-height: 17px;
+          text-align: center;
+          color: #757575;
+          border: 1px solid #DBDBDB;
+          box-sizing: border-box;
+          border-radius: 3px;
+        }
+      }
+    }
+    &__box-2{
+      display: flex;
+      justify-content: space-around;
+      position: relative;
+      top: 120px;
+      &__email{
+        display: inline-flex;
+        width: 200px;
+        height: 30px;
+
+        img{
+          width: 30px;
+          height: 30px;
+        }
+        .name{
+          p{
+            padding-left: 10px;
+            font-family: Open Sans;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 13px;
+            line-height: 18px;
+            color: #666666;
+          }
+          span{
+            position: relative;
+            bottom: 25px;
+            padding-left: 10px;
+            font-family: Open Sans;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 11px;
+            color: #757575;;
+          }
+        }
+      }
+      &__button{
+        width: 200px;
+        height: 50px;
+        display: flex;
+        span{
+          position: relative;
+          top: 5px;
+          right: 70px;
+          width: 86px;
+          height: 16px;
+          font-family: Open Sans;
+          font-style: normal;
+          font-weight: normal;
+          font-size: 11px;
+          line-height: 15px;
+          ext-align: right;
+          color: #BABABA;
+        }
+        button{
+          position: relative;
+          right: 50px;
+          width: 102px;
+          height: 30px;
+          font-family: Open Sans;
+          font-style: normal;
+          font-weight: normal;
+          font-size: 12px;
+          line-height: 17px;
+          text-align: center;
+          color: #757575;
+          border: 1px solid #DBDBDB;
+          box-sizing: border-box;
+          border-radius: 3px;
+        }
+      }
+    }
+    &__box-3{
+      display: flex;
+      justify-content: space-around;
+      position: relative;
+      top: 120px;
+      &__email{
+        display: inline-flex;
+        width: 200px;
+        height: 30px;
+
+        img{
+          width: 30px;
+          height: 30px;
+        }
+        .name{
+          p{
+            padding-left: 10px;
+            font-family: Open Sans;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 13px;
+            line-height: 18px;
+            color: #666666;
+          }
+          span{
+            position: relative;
+            bottom: 25px;
+            padding-left: 10px;
+            font-family: Open Sans;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 11px;
+            color: #757575;;
+          }
+        }
+      }
+      &__button{
+        width: 200px;
+        height: 50px;
+        display: flex;
+        span{
+          position: relative;
+          top: 5px;
+          right: 70px;
+          width: 86px;
+          height: 16px;
+          font-family: Open Sans;
+          font-style: normal;
+          font-weight: normal;
+          font-size: 11px;
+          line-height: 15px;
+          ext-align: right;
+          color: #BABABA;
+        }
+        button{
+          position: relative;
+          left: 50px;
+          width: 87px;
+          height: 30px;
+          font-family: Open Sans;
+          font-style: normal;
+          font-weight: normal;
+          font-size: 12px;
+          line-height: 17px;
+          text-align: center;
+          color: #757575;
+          border: 1px solid #DBDBDB;
+          box-sizing: border-box;
+          border-radius: 3px;
+        }
+      }
+    }
+
+  }
+}
+footer{
+  display: inline-flex;
+  justify-content: space-around;
+  height: 100px;
+  background: #FAFAFA;
+  border: 1px solid #E3E3E3;
+  p{
+    position: relative;
+    top: 45px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 18px;
+    color: #000000;
+
+  }
+  .dropdown-toggle{
+    position: relative;
+    top: 30px;
+    left: 50px;
+    width: 101px;
+    height: 45px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 17px;
+    color: #757575;
+    background: #FFFFFF;
+    border: 1px solid #DBDBDB;
+    box-sizing: border-box;
+    border-radius: 3px;
+  }
+  #dropdownMenu2{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 17px;
+    color: #757575;
+    background: #FFFFFF;
+    border: 1px solid #DBDBDB;
+    box-sizing: border-box;
+    border-radius: 3px;
+  }
+  .dropdown-menu{
+    top: 75px;
+  }
+  button{
+    position: relative;
+    top: 30px;
+
+    width: 160px;
+    height: 45px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 18px;
+
+
+    text-align: center;
+
+    color: #FFFFFF;
+    background: linear-gradient(0deg, rgba(45, 156, 219, 0.56), rgba(45, 156, 219, 0.56)), #AD78C9;
+    border-radius: 2.81458px;
+    border: none;
+  }
+
+}
